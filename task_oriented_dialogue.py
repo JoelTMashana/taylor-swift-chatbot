@@ -13,4 +13,4 @@ def call_google_places_api_with_venue(chat_history):
         return venue_details
     except Exception as e:
             print(f"An error occurred: {e}")
-            return "Sorry, an error occurred while processing your query."
+            return "Sorry, an error occurred while processing your query." 
